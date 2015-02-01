@@ -1,0 +1,144 @@
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/drw_layout"
+	tools:context=".QnAActivity" >
+
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:padding="@dimen/activity_vertical_margin"
+	    android:background="@color/rice" >
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="30dp"
+				android:gravity="center"
+				android:textSize="24sp"
+				android:text="@string/title_activity_qa" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q1" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+		        android:textSize="15sp"
+		        android:text="@string/a1" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q2" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+		        android:textSize="15sp"
+		        android:text="@string/a2" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q3" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+		        android:textSize="15sp"
+		        android:text="@string/a3" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q4" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+		        android:textSize="15sp"
+		        android:text="@string/a4" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q5" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+		        android:textSize="15sp"
+		        android:text="@string/a5" />
+	    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textColor="@color/lightgrey"
+		        android:textSize="18sp"
+		        android:text="@string/q6" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="25dp"
+	        	android:layout_marginBottom="20dp"
+		        android:textSize="15sp"
+		        android:text="@string/a6" />
+	
+	    </LinearLayout>
+
+	</ScrollView>
+
+
+	<RelativeLayout
+		android:layout_width="220dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="end"
+		android:background="@color/black" >
+
+		<ListView
+			android:id="@+id/drawer_list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/green"/>
+
+	</RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

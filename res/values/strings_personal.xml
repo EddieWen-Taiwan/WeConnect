@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  <!-- Strings related to Login -->
+    <string name="prompt_email">請輸入學校信箱地址</string>
+    <string name="prompt_password">請輸入密碼</string>
+    <string name="action_sign_in_register">登入</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in</string>
+    <string name="error_invalid_email">請輸入完整學校信箱</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">密碼錯誤</string>
+    <string name="error_field_required">尚未填寫此欄位</string>
+    
+  <!-- Strings related to Register -->
+  	<string name="enter_nccuemail">請輸入NCCU信箱取得認證:</string>
+    <string name="enter_account">輸入\'學號\'，將以學生信箱作為帳號:</string>
+    <string name="register">註冊</string>
+    <string name="show_register">帳號及密碼註冊</string>
+    <string name="login">登入</string>
+    <string name="noaccount">沒有帳號嗎</string>
+    <string name="student_id">ex:100306060</string>
+    <string name="only">註: 目前WeConnect僅提供政大學生註冊，未來將拓展至各大專院校，我們會持續努力，感謝您的支持。</string>
+    
+  <!-- Strings related to Profile -->
+  	<string name="name">顯  示  名  稱</string>
+  	<string name="major">在  校  系  級</string>
+  	<string name="club">社  團  經  驗</string>
+  	<string name="work">工  作  經  驗</string>
+  	<string name="story">我  的  故  事</string>
+  	<string name="edit_title">編輯我的個人資料</string>
+  	<string name="comment_title">他們這麼說....</string>
+  	<string name="comment">點我看評論</string>
+    
+</resources>

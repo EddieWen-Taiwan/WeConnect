@@ -1,0 +1,485 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rice"
+    android:padding="@dimen/activity_margin"
+    android:weightSum="12"
+    android:orientation="vertical"
+    tools:context=".ChooseTime" >
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp" >
+
+        <TextView
+            android:id="@+id/free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_centerVertical="true"
+        	android:layout_marginLeft="10dp"
+            android:text="@string/freetime"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/next"
+            android:textSize="18sp"
+            android:background="@color/transparent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:weightSum="23"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/date_background1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/date"
+        		android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/month1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/date_background1"
+                android:layout_marginLeft="3dp"
+                android:layout_alignTop="@id/date_background1"
+                android:layout_marginTop="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/date_background1"
+                android:layout_marginRight="3dp"
+                android:layout_alignBottom="@id/date_background1"
+                android:layout_marginBottom="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/weekday1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="bottom"
+            android:textSize="12sp" />
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+			<TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time1" />
+
+	        <ImageView
+	            android:id="@+id/d1t1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time2" />
+
+	        <ImageView
+	            android:id="@+id/d1t2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time3" />
+
+	        <ImageView
+	            android:id="@+id/d1t3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time4" />
+
+	        <ImageView
+	            android:id="@+id/d1t4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:weightSum="23"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/date_background2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/date"
+        		android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/month2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/date_background2"
+                android:layout_marginLeft="3dp"
+                android:layout_alignTop="@id/date_background2"
+                android:layout_marginTop="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/date_background2"
+                android:layout_marginRight="3dp"
+                android:layout_alignBottom="@id/date_background2"
+                android:layout_marginBottom="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/weekday2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="bottom"
+            android:textSize="12sp" />
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time1" />
+
+	        <ImageView
+	            android:id="@+id/d2t1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time2" />
+
+	        <ImageView
+	            android:id="@+id/d2t2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time3" />
+
+	        <ImageView
+	            android:id="@+id/d2t3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time4" />
+
+	        <ImageView
+	            android:id="@+id/d2t4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:weightSum="23"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/date_background3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/date"
+        		android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/month3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/date_background3"
+                android:layout_marginLeft="3dp"
+                android:layout_alignTop="@id/date_background3"
+                android:layout_marginTop="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/date_background3"
+                android:layout_marginRight="3dp"
+                android:layout_alignBottom="@id/date_background3"
+                android:layout_marginBottom="-3dp"
+                android:textSize="24sp"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/weekday3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="bottom"
+            android:textSize="12sp" />
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time1" />
+
+	        <ImageView
+	        	android:id="@+id/d3t1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time2" />
+
+	        <ImageView
+	            android:id="@+id/d3t2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time3" />
+
+	        <ImageView
+	            android:id="@+id/d3t3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/time4" />
+
+	        <ImageView
+	            android:id="@+id/d3t4"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:adjustViewBounds="true"
+	        	android:clickable="true"
+		    	android:contentDescription="@string/app_name" />
+        
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sure">確認</string>
+    <string name="next">下一步 》</string>
+    <string name="selectSubject">選擇喜好的議題</string>
+    <string name="freetime">至少選擇一個時段</string>
+    <string name="iwantsay">我想討論的內容</string>
+    <string name="hint_say">Ex: 我今天想談談關於最近沸沸揚揚的\"福懋\"</string>
+    <string name="iamhost">我有意願擔任主持人</string>
+    <string name="absence">缺席</string>
+
+    <string name="time1">12:00~</string>
+    <string name="time2">16:00~</string>
+    <string name="time3">18:00~</string>
+    <string name="time4">20:00~</string>
+
+    <string name="noforum">目前沒有配對成功的交流會喔~\n\n要不要趕緊去報名一場呢?</string>
+    <string name="checklist">查看其他成員</string>
+    <string name="showpic">辨識圖案</string>
+    <string name="forumhistory">交流場次紀錄</string>
+    <string name="teamlisttitle">聚會成員</string>
+    <string name="failtitle">Sorry....</string>
+    <string name="failcontent_1">　　抱歉在此通知您今日</string>
+    <string name="failcontent_2">點的交流場次因為人數不足而配對失敗。如果有更多朋友在使用WeConnect就會越容易配對成功喔!</string>
+
+</resources>

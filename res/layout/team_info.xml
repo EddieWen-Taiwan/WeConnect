@@ -1,0 +1,51 @@
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/drw_layout"
+	tools:context=".MainActivity" >
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:background="@color/rice"
+		tools:context=".TeamInfo" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dp"
+			android:gravity="center"
+			android:textSize="24sp"
+			android:text="@string/forumhistory" />
+
+		<ExpandableListView
+			android:id="@+id/forumhistory"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/activity_margin"
+			android:layout_marginRight="@dimen/activity_margin"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp" />
+
+	</LinearLayout>
+
+
+	<RelativeLayout
+		android:layout_width="220dp"
+		android:layout_height="match_parent"
+		android:layout_gravity="end"
+		android:background="@color/black" >
+
+		<ListView
+			android:id="@+id/drawer_list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/green"/>
+
+	</RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
